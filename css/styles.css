@@ -1,0 +1,100 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: #4D5AE5;
+}
+
+.link-logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #2E2F42;
+}
+
+.footer-logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #F4F4FD;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.link-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455
+}
+
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+.section-hero {
+    background-color: #2E2F42;
+}
+
+.title-hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.title-advantages,
+.subtitle-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text,
+.text-team {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.title-doing,
+.title-team {
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.text-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+
+}
