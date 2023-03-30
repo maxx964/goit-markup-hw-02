@@ -71,7 +71,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--secondory-font-color);
+    font-style: normal;
+    color: var(--main-font-color);
+    background-color: var(--main-light-color);
 }
 
 .section-hero {
