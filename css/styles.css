@@ -23,15 +23,18 @@ ul {
 /* логотипу добавленний селекто span з класом для стилізації частини тексту в 
 голубий колір */
 .logo {
-    color: var(--secondory-font-accent-color);
+    color: var(--secondory-font-color);
 }
 
 .link-logo {
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
-    color: var(--secondory-font-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--secondory-font-accent-color);
+    text-decoration: none;
 }
 
 .footer-logo {
