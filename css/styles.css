@@ -1,7 +1,7 @@
 :root {
     --main-light-color: #FFFFFF;
-    --main-font-bgr-color: #2E2F42;
-    --secondory-font-color: #434455;
+    --main-font-color: #434455;
+    --secondory-font-color: #2E2F42;
     --secondory-footer-color: #F4F4FD;
     --secondory-font-accent-color: #4D5AE5;
 
@@ -31,7 +31,7 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    color: var(--main-font-bgr-color);
+    color: var(--secondory-font-color);
 }
 
 .footer-logo {
@@ -46,7 +46,7 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--main-font-bgr-color);
+    color: var(--secondory-font-color);
 }
 
 .link-address:hover,
@@ -61,16 +61,16 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--secondory-font-color);
+    color: var(--main-font-color);
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--main-light-color);
+    color: var(--secondory-font-color);
 }
 
 .section-hero {
-    background-color: var(--main-font-bgr-color);
+    background-color: var(--secondory-font-color);
 }
 
 .title-hero {
@@ -101,7 +101,7 @@ body {
 .text-team {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--secondory-font-color);
+    color: var(--main-font-color);
 }
 
 .title-doing,
@@ -117,6 +117,6 @@ body {
 }
 
 .footer {
-    background-color: var(--main-font-bgr-color);
+    background-color: var(--secondory-font-color);
 
 }
