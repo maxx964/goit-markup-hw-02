@@ -1,11 +1,16 @@
+/* посиланням добавлено значення щоб прибирати підкрєслювання */
 a {
     text-decoration: none;
 }
 
+
+/* списку добавлено значення щоб прибирати крапки */
 ul {
     list-style: none;
 }
 
+/* логотипу добавленний селекто span з класом для стилізації частини тексту в 
+голубий колір */
 .logo {
     color: #4D5AE5;
 }
@@ -43,7 +48,6 @@ ul {
 }
 
 body {
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
 }
@@ -66,6 +70,7 @@ body {
     line-height: 1.5;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .title-advantages,
