@@ -72,7 +72,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: var(--main-font-color);
+    color: #434455;
     background-color: var(--main-light-color);
 }
 
