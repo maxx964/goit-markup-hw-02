@@ -100,9 +100,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #404BBF;
-    background-color: var(--secondory-font-accent-color);
+    color: #ffffff;
+    background-color: #4D5AE5;
     cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
 }
 
 .title-advantages,
