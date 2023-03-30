@@ -1,3 +1,12 @@
+:root {
+    --main-light-color: #FFFFFF;
+    --main-font-bgr-color: #2E2F42;
+    --secondory-font-color: #434455;
+    --secondory-footer-color: #F4F4FD;
+    --secondory-font-accent-color: #4D5AE5;
+
+}
+
 a {
     text-decoration: none;
 }
@@ -7,7 +16,7 @@ ul {
 }
 
 .logo {
-    color: #4D5AE5;
+    color: var(--secondory-font-accent-color);
 }
 
 .link-logo {
@@ -15,7 +24,7 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    color: #2E2F42;
+    color: var(--main-font-bgr-color);
 }
 
 .footer-logo {
@@ -23,14 +32,19 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    color: #F4F4FD;
+    color: var(--secondory-footer-color);
 }
 
 .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--main-font-bgr-color);
+}
+
+.link-address:hover,
+.link-address:focus {
+    color: var(--secondory-font-accent-color);
 }
 
 .link-address {
@@ -39,7 +53,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455
+    color: var(--secondory-font-color);
 }
 
 .btn {
@@ -47,14 +61,14 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #4D5AE5;
+    color: var(--secondory-font-accent-color);
     cursor: pointer;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #2E2F42;
+    color: var(--main-font-bgr-color);
 }
 
 .title-product {
@@ -67,7 +81,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--secondory-font-color);
 }
 
 
@@ -81,5 +95,5 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
+    color: var(--secondory-footer-color);
 }
