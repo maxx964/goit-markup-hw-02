@@ -10,13 +10,13 @@
 
 
 /* посиланням добавлено значення щоб прибирати підкрєслювання */
-a {
+.link {
     text-decoration: none;
 }
 
 
 /* списку добавлено значення щоб прибирати крапки */
-ul {
+.list {
     list-style: none;
 }
 
@@ -34,7 +34,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--secondory-font-accent-color);
-    text-decoration: none;
+
 }
 
 .footer-logo {
@@ -45,10 +45,12 @@ ul {
     color: var(--secondory-footer-color);
 }
 
-.link {
+.link-nav {
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--secondory-font-color);
 }
 
