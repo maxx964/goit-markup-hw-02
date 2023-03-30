@@ -68,7 +68,7 @@ ul {
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: var(--main-font-bgr-color);
+    color: var(--main-light-color);
 }
 
 .title-product {
