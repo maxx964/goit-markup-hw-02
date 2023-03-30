@@ -46,7 +46,6 @@
 }
 
 .link-nav {
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -54,9 +53,14 @@
     color: var(--secondory-font-color);
 }
 
+.link-nav:hover,
+.link-nav:focus {
+    color: #404bbf;
+}
+
 .link-address:hover,
 .link-address:focus {
-    color: var(--secondory-font-accent-color);
+    color: #404bbf;
 }
 
 
@@ -67,6 +71,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-font-color);
+
 }
 
 body {
