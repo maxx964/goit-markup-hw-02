@@ -20,9 +20,8 @@
     list-style: none;
 }
 
-/* логотипу добавленний селекто span з класом для стилізації частини тексту в 
-голубий колір */
-.logo {
+/* логотипу добавленний селекто span з класом для стилізації частини тексту */
+.header-logo {
     color: var(--secondory-font-color);
 }
 
@@ -41,15 +40,15 @@
     text-decoration: none
 }
 
-.footer-logo {
+/* .footer-logo {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
     color: var(--secondory-footer-color);
-}
+} */
 
-.link-nav {
+.header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -57,13 +56,13 @@
     color: var(--secondory-font-color);
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.header-item:hover,
+.header-item:focus {
     color: #404bbf;
 }
 
-.link-address:hover,
-.link-address:focus {
+.header-contact:hover,
+.header-contact:focus {
     color: #404bbf;
 }
 
@@ -72,7 +71,7 @@
 }
 
 
-.link-address {
+.header-contact {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -102,7 +101,7 @@ body {
     color: var(--main-light-color);
 }
 
-.btn {
+.btn-hero {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -113,8 +112,8 @@ body {
     cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.btn-hero:hover,
+.btn-hero:focus {
     background-color: #404BBF;
 }
 
@@ -123,12 +122,15 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondory-font-color);
 }
 
 .text,
 .text-team {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-font-color);
 }
 
