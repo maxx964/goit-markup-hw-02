@@ -15,24 +15,23 @@
     list-style: none;
 }
 
-.logo {
+.header-logo {
     color: var(--secondory-font-accent-color);
 }
 
-.link-logo {
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    color: var(--secondory-font-color);
+.footer-logo {
+    color: #f4f4fd;
 }
 
-.footer-logo {
+.logotyp {
+    font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
-    color: var(--secondory-footer-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--secondory-font-accent-color);
+    text-decoration: none
 }
 
 .link-nav {
