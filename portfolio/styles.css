@@ -34,7 +34,7 @@
     text-decoration: none
 }
 
-.link-nav {
+.header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -42,23 +42,29 @@
     color: var(--secondory-font-color);
 }
 
-.link-nav:hover,
-.link-nav:focus {
+.header-item:hover,
+.header-item:focus {
     color: #404bbf;
 }
 
-.link-address:hover,
-.link-address:focus {
+.header-contact:hover,
+.header-contact:focus {
     color: #404bbf;
 }
 
-.link-address {
+.address {
+    font-style: normal
+}
+
+
+.header-contact {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--main-font-color)
+    letter-spacing: 0.02em;
+    color: var(--main-font-color);
+
 }
 
 .btn {
