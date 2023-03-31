@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./portfolio/css/styles.css" />
   </head>
   <body>
     <header class="header">
@@ -18,7 +20,7 @@
         <a class="link logotyp" href="./index.html">Web<span class="header-logo">Studio</span></a>
         <ul class="list">
           <li><a class="link header-item" href="./index.html">Studio</a></li>
-          <li><a class="link header-item" href="">Portfolio</a></li>
+          <li><a class="link header-item" href="./portfolio.html">Portfolio</a></li>
           <li><a class="link header-item" href="">Contacts</a></li>
         </ul>
       </nav>
@@ -34,30 +36,27 @@
       </address>
     </header>
     <main>
-      <!-- section btn -->
+      <!-- section Our product -->
       <section>
+        <h1 hidden>Our product</h1>
         <ul class="list">
+          <li><button class="btn-product">All</button></li>
+          <button class="btn-product">All</button>
+
           <li>
-            <button class="btn" type="button">All</button>
+            <button class="btn-product" type="button">Web Site</button>
           </li>
           <li>
-            <button class="btn" type="button">Web Site</button>
+            <button class="btn-product" type="button">App</button>
           </li>
           <li>
-            <button class="btn" type="button">App</button>
+            <button class="btn-product" type="button">Design</button>
           </li>
           <li>
-            <button class="btn" type="button">Design</button>
-          </li>
-          <li>
-            <button class="btn" type="button">Marketing</button>
+            <button class="btn-product" type="button">Marketing</button>
           </li>
         </ul>
-      </section>
 
-      <!-- section images -->
-      <section>
-        <h1>Our product</h1>
         <ul class="list">
           <li>
             <img
@@ -155,7 +154,7 @@
 
     <!-- Section footer -->
     <footer class="footer">
-      <a class="logotyp" href="./index.html">Web<span class="footer-logo">Studio</span></a>
+      <a class="link logotyp" href="./index.html">Web<span class="footer-logo">Studio</span></a>
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.

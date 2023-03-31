@@ -67,13 +67,21 @@
 
 }
 
-.btn {
+.btn-product {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
     color: var(--secondory-font-accent-color);
     cursor: pointer;
+}
+
+.btn-product:hover,
+.btn-product:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 body {
@@ -87,13 +95,16 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondory-font-color);
 }
 
 .text-product {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--main-font-color);
+    letter-spacing: 0.02em;
+    color: var(--main-font-color)
 }
 
 
