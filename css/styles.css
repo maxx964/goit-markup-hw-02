@@ -136,8 +136,11 @@ body {
 
 .title-doing,
 .title-team {
+    text-align: center;
+    text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
+    color: var(--secondory-font-color);
 }
 
 .text-footer {
