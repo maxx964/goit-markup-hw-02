@@ -16,7 +16,7 @@
 }
 
 .header-logo {
-    color: var(--secondory-font-accent-color);
+    color: var(--secondory-font-color);
 }
 
 .footer-logo {
@@ -68,7 +68,7 @@
 }
 
 .btn-product {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
