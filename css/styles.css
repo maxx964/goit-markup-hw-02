@@ -37,16 +37,8 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--secondory-font-accent-color);
-    text-decoration: none
+    text-decoration: none;
 }
-
-/* .footer-logo {
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    color: var(--secondory-footer-color);
-} */
 
 .header-item {
     font-weight: 500;
@@ -67,7 +59,7 @@
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
 }
 
 
